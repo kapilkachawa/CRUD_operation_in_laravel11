@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.custom-btn {
+    margin-right: 10px; /* Adjust this value as needed for the desired spacing */
+}
+
+.btn-add-student {
+    background-color: #34a853; /* Google Green Color */
+    margin-left: auto; /* Pushes the button to the right */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+/* Add spacing between the table and the "Add Student" button */
+.container table {
+    margin-bottom: 30px;
+}
